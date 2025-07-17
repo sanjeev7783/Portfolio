@@ -24,7 +24,7 @@ const Hero = () => {
   return (
     <section
       id="about"
-      className="flex flex-col md:flex-row items-center justify-between p-6 md:p-10 bg-gradient-to-r from-green-300 to-blue-300 min-h-screen"
+      className="flex flex-col md:flex-row items-center justify-between p-6 md:p-10 bg-gradient-to-r from-green-300 to-blue-300"
     >
       <img
         src={myImage}
