@@ -1,4 +1,3 @@
-
 const skillset = {
   languages: ["JavaScript", "TypeScript", "Java", "Python"],
   technologies: [
@@ -13,7 +12,7 @@ const skillset = {
 };
 
 const Skillset = () => (
-  <section id="skills" className="p-10">
+  <section id="skills" className="p-10 scroll-mt-65 md:scroll-mt-10">
     <h2 className="text-3xl font-bold mb-6 text-center">Skillset</h2>
     <div className="grid gap-6 md:grid-cols-3 bg-white">
       <div>

@@ -28,7 +28,10 @@ const certifications = [
 ];
 
 const Certifications = () => (
-  <section id="certifications" className="p-10 bg-gray-50">
+  <section
+    id="certifications"
+    className="p-10 bg-gray-50 scroll-mt-65 md:scroll-mt-10"
+  >
     <h2 className="text-3xl font-bold mb-6 text-center">Certifications</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {certifications.map((cert, index) => (

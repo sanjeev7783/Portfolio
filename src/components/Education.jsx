@@ -11,7 +11,7 @@ const educationData = [
 ];
 
 const Education = () => (
-  <section id="education" className="p-10 bg-gray-50">
+  <section id="education" className="p-10 bg-gray-50 scroll-mt-65 md:scroll-mt-10">
     <h2 className="text-3xl font-bold mb-6 text-center">Education</h2>
     <div className="space-y-6">
       {educationData.map((edu, index) => (

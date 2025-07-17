@@ -49,7 +49,7 @@ const projects = [
 ];
 
 const ProjectWork = () => (
-  <section id="projects" className="p-10 bg-gray-50">
+  <section id="projects" className="p-10 bg-gray-50 scroll-mt-65 md:scroll-mt-10">
     <h2 className="text-3xl font-bold mb-6 text-center">Project Work</h2>
     <div className="space-y-10">
       {projects.map((project, index) => (
