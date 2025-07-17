@@ -24,21 +24,21 @@ const Hero = () => {
   return (
     <section
       id="about"
-      className="flex flex-col md:flex-row items-center justify-between p-10 bg-gradient-to-r from-green-300 to-blue-300 min-h-screen"
+      className="flex flex-col-reverse md:flex-row items-center justify-between p-6 md:p-10 bg-gradient-to-r from-green-300 to-blue-300 min-h-screen"
     >
       <img
         src={myImage}
         alt="person-with-laptop"
-        className="w-1/3 mt-8 md:mt-0"
+        className="w-2/3 md:w-1/3 mt-4 md:mt-0 mb-6 md:mb-0"
       />
-      <div id="resume" className="text-center md:text-left">
+      <div id="resume" className="text-center md:text-left mt-6 md:mt-0">
         <h1 className="text-4xl font-bold">
           Hey folks, I'm{" "}
           <span className="text-white">
             {showName ? "Sanjeev" : "Developer"}
           </span>
         </h1>
-        <p className="mt-2 max-w-xl">
+        <p className="mt-2 max-w-xl mx-auto md:mx-0">
           With a fervent passion for user experience design, interfaces, and web
           development, I bring boundless energy to the table. My expertise lies
           in creating seamless digital experiences that captivate and engage
