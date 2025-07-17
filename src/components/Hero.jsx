@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import myImage from "../assets/person-with-laptop.svg";
+import heroBg from "../assets/hero-image.svg";
 
 const Hero = () => {
   const [showName, setShowName] = useState(true);
@@ -24,7 +25,8 @@ const Hero = () => {
   return (
     <section
       id="about"
-      className="flex flex-col md:flex-row items-center justify-between p-6 md:p-10 bg-gradient-to-r from-green-300 to-blue-300"
+      className="flex flex-col md:flex-row items-center justify-between p-6 md:p-10 bg-gradient-to-r from-green-300 to-blue-300 bg-no-repeat bg-cover bg-center"
+      style={{ backgroundImage: `url(${heroBg})` }}
     >
       <img
         src={myImage}
