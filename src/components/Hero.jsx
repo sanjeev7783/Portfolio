@@ -14,8 +14,8 @@ const Hero = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "./application.pdf"; // Make sure resume.pdf is in the public folder
-    link.download = "application.pdf";
+    link.href = "./myResume.pdf"; // Make sure resume.pdf is in the public folder
+    link.download = "Sanjeev_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
