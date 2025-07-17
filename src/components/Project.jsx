@@ -17,7 +17,7 @@ const projects = [
     title: 'Jazeera Airways',
     duration: 'Mar 2025 – Present',
     points: [
-      'Developing scalable and responsive UI components using Next.js for a comprehensive hotel management platform.',
+      'Developing scalable and responsive UI components using Next.js for a comprehensive this Airline E-booking platform.',
       'Implemented CRUD operations for employee data via API calls.',
       'Utilized Zustand for efficient state management across complex flows.',
       'Built reusable components for consistency and faster development.',
